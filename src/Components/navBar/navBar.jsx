@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <a href="https://www.instagram.com/late.chocolates/">Contacto</a>
-        <a href="/React-Choco/">Home</a>
+        <a href="/">Home</a>
         <a href="/React-Choco/Menu">¿Porque LATE?</a>
       </div>
     </nav>
