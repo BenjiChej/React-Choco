@@ -43,7 +43,7 @@ function Inicio() {
             </div>
             <div className='divInfo1'>
                 <img src={SecondImg} alt="SecondImg" className='SecondImg'/>   
-                <p className='pInfo1'>Conoce nuestros <b>sabores</b> y <b>productos</b> aca o revisa nuestro Instagram donde tambien podras contactarnos por mensaje privado para encargarnos tu gustos y chocolates favoritos. Para ir a ver el Menu de <b>LATE</b> hace click <Link to="/menu">ACA</Link>.</p>   
+                <p className='pInfo1'>Conoce nuestros <b>sabores</b> y <b>productos</b> aca o revisa nuestro Instagram donde tambien podras contactarnos por mensaje privado para encargarnos tu gustos y chocolates favoritos. Para ir a ver porque elegir <b>LATE</b> hace click <Link to="/menu">ACA</Link>.</p>   
             </div>
             <div className='divAbajo'>
                 <Footer className='abajo'/>

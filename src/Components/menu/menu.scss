@@ -19,7 +19,9 @@ $jumbotron-backgroundcolor: rgb(101, 83, 83);
   color: white;
   padding: 40px;
   font-weight: normal;
-  margin: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: -20px;
   @media (max-width: 768px) {
    /* Adjust font size for smaller screens */
   border-radius: 10%;
@@ -66,11 +68,11 @@ $jumbotron-backgroundcolor: rgb(101, 83, 83);
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
-  background-color: #f0f0f0; /* You can change this color to set the background of the circle */
+  background-color: #77480b; /* You can change this color to set the background of the circle */
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
 }
@@ -92,11 +94,17 @@ $jumbotron-backgroundcolor: rgb(101, 83, 83);
 
 .name
 {
-  color: #000000;
+  color: #ffffff;
   margin-top: 10px;
 }
 
 .ia{
   font-size: 1vh;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  color: rgb(197, 192, 192);
+}
+
+.divporq
+{
+  background: linear-gradient(to bottom, #7e4c28, #000000);
 }
