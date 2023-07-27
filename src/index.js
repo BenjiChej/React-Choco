@@ -22,7 +22,7 @@ root.render(
       <Routes>
           <Route path="/" element={< Inicio/>} />
           <Route path="/Contact" element={< Inicio/>} />
-          <Route path="/Menu" element={< Menu/>} />
+          <Route path="/React-Choco/Menu" element={< Menu/>} />
           <Route path="/" element={< Inicio/>} />
       </Routes>
   </Router>
