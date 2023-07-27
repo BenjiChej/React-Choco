@@ -1,0 +1,28 @@
+.navbar {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    padding: 10vw; /* 10vw padding */
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  
+    .navbar-container {
+      max-width: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+      }
+    }
+  }
