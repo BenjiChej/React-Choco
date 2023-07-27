@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React-Choco/static/css/main.a04f4965.css",
+    "main.js": "/React-Choco/static/js/main.a3718036.js",
+    "static/js/787.57229b6b.chunk.js": "/React-Choco/static/js/787.57229b6b.chunk.js",
+    "static/media/f149f839-81c5-4368-9e89-d4002654a25d-removebg-preview.png": "/React-Choco/static/media/f149f839-81c5-4368-9e89-d4002654a25d-removebg-preview.4ad230762504e456b9e7.png",
+    "static/media/DreamShaper_v7_create_the_image_of_a_doctor_with_a_chocolate_i_2.jpg": "/React-Choco/static/media/DreamShaper_v7_create_the_image_of_a_doctor_with_a_chocolate_i_2.633e269da85c9173d172.jpg",
+    "static/media/c73b7b6e-acee-4474-8b24-72182c470417-removebg-preview.png": "/React-Choco/static/media/c73b7b6e-acee-4474-8b24-72182c470417-removebg-preview.eef74b1cef806636aee1.png",
+    "static/media/logo.svg": "/React-Choco/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-Choco/index.html",
+    "main.a04f4965.css.map": "/React-Choco/static/css/main.a04f4965.css.map",
+    "main.a3718036.js.map": "/React-Choco/static/js/main.a3718036.js.map",
+    "787.57229b6b.chunk.js.map": "/React-Choco/static/js/787.57229b6b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a04f4965.css",
+    "static/js/main.a3718036.js"
+  ]
+}
