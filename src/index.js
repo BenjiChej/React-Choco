@@ -20,9 +20,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-          <Route path="/React-Choco" element={< Inicio/>} />
+          <Route path="/" element={< Inicio/>} />
           <Route path="/Contact" element={< Inicio/>} />
-          <Route path="/React-Choco/Menu" element={< Menu/>} />
+          <Route path="/Menu" element={< Menu/>} />
           <Route path="/" element={< Inicio/>} />
       </Routes>
   </Router>
