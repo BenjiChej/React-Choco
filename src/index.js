@@ -18,7 +18,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router basename='choco'>
       <Routes>
           <Route path="/" element={< Inicio/>} />
           <Route path="/Contact" element={< Inicio/>} />
