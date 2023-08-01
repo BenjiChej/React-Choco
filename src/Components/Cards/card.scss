@@ -1,0 +1,56 @@
+
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
+    justify-content: center; /* Horizontally center the cards */
+    align-items: center; /* Vertically center the cards */
+    min-height: 60vh; /* Adjust the height as needed */
+    margin-top: -40px;
+  }
+  
+  .neomorphic-card {
+    width: calc(33.333% - 20px); /* Adjust card width based on the number of cards you want in a row */
+    max-width: 300px; /* Set a maximum width for the card */
+    height: 500px; /* Adjust the height as needed */
+    border-radius: 30px;
+    background-color: #612d2d;
+    box-shadow: 20px 20px 40px #000000;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 50px;
+    padding: 10px;
+  }
+  
+  .neomorphic-card-photo {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .neomorphic-card-content {
+    padding: 20px;
+  }
+  
+  .neomorphic-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .neomorphic-card-description {
+    font-size: 16px;
+    color: #bbbbbb;
+  }
+  
+  /* Media queries for responsive design */
+  
+  @media (max-width: 768px) {
+    .neomorphic-card {
+      width: 100%; /* Take full width on smaller screens */
+    }
+  }
+  
