@@ -13,6 +13,8 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, #7e4c28, #000000);
+    
+    
 }
 
 .display-4 {
@@ -167,6 +169,92 @@ body {
     justify-content: right;
     align-items: center;
   }
+
+  .Carousel
+  {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  // CurvyBackground.scss
+.curvy-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f0eb; /* Light brown background color */
+  
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      top: -10%;
+      left: 10%;
+      width: 80%;
+      height: 80%;
+      border-radius: 50%;
+      background-color: #d1a174; /* Dark brown color for curves */
+      transform: rotate(45deg);
+    }
+  
+    &:after {
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, 0) rotate(-45deg);
+    }
+  }
+
+  .glass-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    max-width: 400px;
+    height: 60vh;
+    background: rgba(185, 82, 82, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px rgba(199, 199, 199, 0.5),
+                -6px -6px 10px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease-in-out;
+  
+    .title {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    .neomorphism-input {
+      border: none;
+      background: #f0f0f0;
+      padding: 15px;
+      font-size: 16px;
+      color: #333;
+      border-radius: 10px;
+      box-shadow: 6px 6px 10px rgb(255, 0, 157),
+                  -6px -6px 10px rgba(27, 143, 251, 0.996);
+      transition: all 0.3s ease-in-out;
+      width: 70%;
+      margin-bottom: 40px;
+  
+      &:focus {
+        outline: none;
+        box-shadow: 4px 4px 6px rgba(199, 199, 199, 0.5),
+                    -4px -4px 6px rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+  
+  
+.buttonDiv{
+    height: 1vh;
+}
 
   
   
