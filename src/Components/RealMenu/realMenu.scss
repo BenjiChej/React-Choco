@@ -54,7 +54,7 @@ $jumbotron-backgroundcolor: rgb(101, 83, 83);
     padding: 0.5rem;
 
     /* Gradient background */
-    background-image: linear-gradient(to right, #85290a, #8a6f68, #8a6f68, #85290a);
+    background-image: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #ff9a9e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -107,4 +107,42 @@ $jumbotron-backgroundcolor: rgb(101, 83, 83);
 .divporq
 {
   background: linear-gradient(to bottom, #7e4c28, #000000);
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f3e0d2; /* Light brown background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin: 20px 0; /* Add some margin for spacing */
+  margin-right: 80px;
+  margin-left: 80px;
+  
+  .menu-item {
+    background-color: #fff; /* White background for menu items */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for menu items */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    
+    h2 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+      color: #4e3629; /* Dark brown text color */
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+    
+    p {
+      font-size: 0.9em;
+      color: #7d7d7d; /* Light brown text color */
+    }
+  }
 }

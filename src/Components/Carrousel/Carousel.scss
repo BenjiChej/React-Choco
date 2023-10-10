@@ -50,8 +50,8 @@
   background-color: rgba(255, 255, 255, 0.182);
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 6px 6px 10px rgba(40, 75, 171, 0.5),
-              -6px -6px 10px rgba(234, 8, 234, 0.5);
+  box-shadow: 6px 6px 10px rgb(94, 56, 7),
+                -6px -6px 10px rgba(68, 38, 4, 0.996);
   transition: all 0.3s ease-in-out;
   animation: popupScale 0.3s ease-in-out;
 
@@ -79,8 +79,8 @@
     font-size: 16px;
     color: #333;
     border-radius: 10px;
-    box-shadow: 6px 6px 10px rgb(255, 0, 157),
-                -6px -6px 10px rgba(27, 143, 251, 0.996);
+    box-shadow: 6px 6px 10px rgb(94, 56, 7),
+                -6px -6px 10px rgba(68, 38, 4, 0.996);
     transition: all 0.3s ease-in-out;
     width: 100%;
     margin-bottom: 20px;

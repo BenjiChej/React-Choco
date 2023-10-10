@@ -25,7 +25,8 @@ const Navbar = () => {
           <AiFillInstagram size={24} />
         </InstagramLink>
         <a href="/">Home</a>
-        <a href="/Menu">¿Porque LATE?</a>
+        <a href="/Menu">¿LATE?</a>
+        <a href="/realmenu">Menu</a>
         <img className="logo" src={logo}/>
       </div>
     </nav>

@@ -14,6 +14,7 @@ import NavBar from './Components/navBar/navBar';
 import Inicio from './Components/inicio/inicio';
 import Menu from './Components/menu/menu';
 import 'bootstrap/dist/css/bootstrap.css';
+import RealMenu from './Components/RealMenu/RealMenu';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +24,7 @@ root.render(
           <Route path="/" element={< Inicio/>} />
           <Route path="/Contact" element={< Inicio/>} />
           <Route path="/Menu" element={< Menu/>} />
+          <Route path="/RealMenu" element={< RealMenu/>} />
           <Route path="/" element={< Inicio/>} />
       </Routes>
   </Router>
