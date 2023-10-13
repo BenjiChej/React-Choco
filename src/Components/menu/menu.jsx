@@ -11,7 +11,7 @@ const Menu = () => {
         <NavBar/>
         <h1 className='descriptit'>¿Porque elegir LATE Chocolates?</h1>
 
-        <h2 className='descrip'>Desde LATE Chocolates hacemos todo con mucho amor al chocolate. Lo que una vez empezo como un hobby, hoy se ha convertido en algo mucho mas que ello. La dedicación ha logrado posicionar a LATE como un referente en la experimentacion con sabores nunca antes imaginados, combinaciones nunca antes vistas y chocolates nuevos. Sumate a este aventura y forma parte de esta hermosa familia, no te arrepentiras.</h2>
+        <h2 className='descrip'>Desde LATE Chocolates hacemos todo con mucho amor al chocolate. Lo que una vez empezo como un hobby, hoy se ha convertido en algo mucho mas que ello. La dedicación ha logrado posicionar a LATE como un referente en la experimentación con sabores nunca antes imaginados y combinaciones nunca antes vistas. Sumate a este aventura y forma parte de esta hermosa familia.</h2>
         <h1 className='descriptit2'>Nuestro Equipo</h1>
 
         <Card/>
