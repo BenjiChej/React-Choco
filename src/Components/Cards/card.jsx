@@ -28,7 +28,7 @@ const NeomorphicCard = ({ title, description, photoUrl }) => {
         <img src={fotobe} alt={title} className="neomorphic-card-photo" />
         <div className="neomorphic-card-content">
             <h3 className="neomorphic-card-title">Benjamin</h3>
-            <p className="neomorphic-card-description">Web Developer</p>
+            <p className="neomorphic-card-description">Web Developer & Social Media Manager</p>
         </div>
     </div>
   
