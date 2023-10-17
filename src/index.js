@@ -23,8 +23,8 @@ root.render(
       <Routes>
           <Route path="/" element={< Inicio/>} />
           <Route path="/Contact" element={< Inicio/>} />
-          <Route path="/Menu" element={< Menu/>} />
-          <Route path="/RealMenu" element={< RealMenu/>} />
+          <Route path="/Late" element={< Menu/>} />
+          <Route path="/Menu" element={< RealMenu/>} />
           <Route path="/" element={< Inicio/>} />
       </Routes>
   </Router>

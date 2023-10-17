@@ -13,13 +13,13 @@ const FooterContainer = styled.footer`
 
 const Text = styled.span`
   font-family: "Arial", sans-serif;
-  font-weight: 900;
-  font-size: 16px;
-  color: #eeee;
+  font-weight: 600;
+  font-size: 15px;
+  color: black;
 `;
 
 const InstagramLink = styled.a`
-  color: #eeee;
+  color: #00000;
   margin-right: 10px;
 
   &:hover {
@@ -37,7 +37,7 @@ const Footer = () => {
       >
         <AiFillInstagram size={24} />
       </InstagramLink>
-      <Text>@Copyright LATE Chocolates - 2023</Text>
+      <Text>LATE Chocolates - 2023</Text>
     </FooterContainer>
   );
 };

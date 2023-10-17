@@ -8,37 +8,9 @@ $jumbotron-backgroundcolor: rgb(101, 83, 83);
 
 .descrip
 {
-  font-size: 1.5rem; /* Set the font size to 1.5rem */
-    flex: 1; /* Allow the paragraph to take the remaining space */
-    background: #781a1a57;
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(7.5px);
-  -webkit-backdrop-filter: blur(7.5px);
-  flex: 1;
-  color: white;
-  padding: 40px;
-  font-weight: normal;
-  margin-right: 80px;
-  margin-left: 80px;
-  margin-top: -20px;
-  @media (max-width: 768px) {
-   /* Adjust font size for smaller screens */
-  border-radius: 10%;
-  background-color: $jumbotron-backgroundcolor;
-  margin: 5vh 2vw;
-  background: #781a1a57;
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(7.5px);
-  -webkit-backdrop-filter: blur(7.5px);
-  flex: 1;
-  color: white;
-  font-size: 5.5vw;
-  padding: 40px;
-  font-weight: normal;
-  }
+  padding: 20px;  
 }
+
 
 .descriptit, .descriptit2
 {
@@ -46,17 +18,17 @@ $jumbotron-backgroundcolor: rgb(101, 83, 83);
   margin: 5vh 2vw;
   font-size: 6vw;
   font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin: 2rem 0;
-    padding: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2rem 0;
+  padding: 0.5rem;
 
-    /* Gradient background */
-    background-image: linear-gradient(to right, #85290a, #8a6f68, #8a6f68, #85290a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  /* Gradient background */
+  background-image: linear-gradient(to right, #85290a, #8a6f68, #8a6f68, #85290a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
     @media (max-width: 768px) {
         font-size: 2rem;
@@ -68,7 +40,7 @@ $jumbotron-backgroundcolor: rgb(101, 83, 83);
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
-  background-color: #77480b; /* You can change this color to set the background of the circle */
+  background-color: #781a1a57; /* You can change this color to set the background of the circle */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,4 +79,23 @@ $jumbotron-backgroundcolor: rgb(101, 83, 83);
 .divporq
 {
   background: linear-gradient(to bottom, #7e4c28, #000000);
+}
+
+.descrip2{
+  font-size: 1.5rem;
+  flex: 1;
+  background: #781a1a36;
+ 
+  color: rgb(0, 0, 0);
+  padding: 40px;
+  font-weight: normal;
+  font-family:'Courier New', Courier, monospace;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.descriplate{
+  justify-content: center;
+  align-items: center;
 }

@@ -9,7 +9,7 @@ body {
 }
 
 .divHomePage {
-    background-color: rgb(255, 255, 255);
+    background-color: #e0e0e0;
     width: 100%;
     height: 100%;
     
@@ -51,6 +51,7 @@ body {
     margin: 1vh 2vw;
     float: right; /* Add this line to float the image to the right */
     margin-top: -200px;
+    margin-right: -20px;
         
 
     @media (max-width: 768px) {

@@ -28,7 +28,7 @@ function Inicio() {
             </div>
             <div class="jumbotron">
                 <h1 class="display-4">Bienvenido a <b className='title'>Late Chocolates</b></h1>
-                <p className="lead">Hacemos chocolates de autor. Nos gusta explorar nuevas opciones. Amantes del sabor y de la originalidad.</p>
+                <p className="lead">Hacemos chocolates de autor, nos gusta explorar nuevas opciones, amantes del sabor y originalidad.</p>
                 <img src={JumboImg} alt="JumboImg" className='JumboImg'/>
                 <p class="lead">
                     <a class="btn btn-primary btn-lg" 
@@ -50,7 +50,7 @@ function Inicio() {
                 <img src={SecondImg} alt="SecondImg" className='SecondImg'/>   
                 <p className='pInfo1'>Conoce nuestros <b>sabores</b> y <b>productos</b> aca o revisa nuestro Instagram donde tambien podras contactarnos por mensaje privado para encargarnos tu gustos y chocolates favoritos.</p>   
             </div>
-          
+            {/* <Carousel></Carousel> */}
             <div className='divAbajo'>
                 <Footer className='abajo'/>
             </div>
